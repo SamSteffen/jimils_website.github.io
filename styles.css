@@ -10,6 +10,8 @@
   .container {
     position: relative;
     margin-top: 100px;
+    max-width: 50%;
+    max-height: 50%;
   }
   .container img {
     display: block;
