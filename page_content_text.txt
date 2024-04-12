@@ -1,11 +1,5 @@
 PAGE TEXTS
 
-<ABOUT>
-<pic> Jimil_in_blue_jacket_by_birdbath
-Jimil Ataman
-About Jimil
-Jimil is a joint-PhD Candidate in Education, Culture and Society and Cultural Anthropology. Her dissertation project is an ethnography on the politics and practices of the Slow Fashion Movement. By following a group of makers and consumers in the Pacific Northwest and on Instagram her research examines how everyday practices, alternative models of fashion production, and online coalition are becoming a site for negotiating broader issues of ethical consumption, sustainability, anti-capitalism. Using digital and traditional ethnographic methods, her research explores the possibilities and contradictions present in attempts to transform relationships to capitalism and consumption through clothing, community, and care. Jimil’s research contributes to the ethnographic examination of the creative and complex world-making practices that emerge when people seek more ethical and more sustainable ways of living through alternative modes of buying, selling, and making clothing.
-
 <DISSERTATION RESEARCH>
 Good Clothes:
 Negotiating Capitalism Through Slow Fashion
@@ -49,8 +43,4 @@ PORTFOLIO
 
 <WRITING>
 
-<FOOTER>
-JIMIL ATAMAN
-PhD Candidate
-The University of Pennsylvania
-<instagram> <twitter> <LinkedIn>
+
