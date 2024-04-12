@@ -142,13 +142,21 @@
 
 .home-text {
   font-family: "Georgia";
-  font-size: large;
+  font-size: x-large;
 }
 
   .image-txt-container {
     display: flex;
     align-items: left;
     flex-direction: row;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+
+  .image-txt-container2 {
+    display: flex;
+    align-items: left;
+    flex-direction: row-reverse;
     padding-top: 50px;
     padding-right: 50px;
   }
