@@ -201,6 +201,12 @@
   font-family: "Georgia";
   font-size: large;
 }
+.inthemedia-text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Georgia";
+  font-size: large;
+}
   .image-txt-container {
     display: flex;
     align-items: left;
