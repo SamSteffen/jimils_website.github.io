@@ -9,7 +9,7 @@
   }
   .container {
     position: relative;
-    margin-top: 100px;
+    margin-top: 60px;
     max-width: 100%;
     max-height: 100%;
   }
@@ -17,6 +17,28 @@
     display: block;
     width: 100%;
   }
+  .round-frame-image {
+    border-radius: 60%;
+    border-style:groove;
+  }
+  .banner-image-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    filter: brightness(50%)
+  }
+  .overlay-text-title-research {
+    position: absolute;
+    top: 20%; 
+    right: 0%; 
+    background-color: transparent; 
+    color: #fff; 
+    padding: 10px 20px; 
+    /*using vw ('viewport-width') will adjust for different screensizes*/
+    font-size: 8vw; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }  
   nav {
     position: fixed;
     z-index: 10;
@@ -139,12 +161,36 @@
       opacity: 0;
     }
   }
-
+.header1 {
+  font-family: "Georgia";
+  font-weight: 900;
+  font-size: xxx-large;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.header2 {
+  font-family: "Georgia";
+  font-weight: 900;
+  font-size: xxx-large;
+  padding-left: 30px;
+  padding-top: 110px;
+}
 .home-text {
   font-family: "Georgia";
   font-size: x-large;
 }
-
+.portfolio-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Georgia";
+  font-size: large;
+}
+.publications-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Georgia";
+  font-size: large;
+}
   .image-txt-container {
     display: flex;
     align-items: left;
@@ -152,7 +198,12 @@
     padding-top: 50px;
     padding-right: 50px;
   }
-
+.contact-list {
+  display: flex;
+  align-items: left;
+  padding-left: 100px;
+  padding-top: 30px;
+}
   .image-txt-container2 {
     display: flex;
     align-items: left;
@@ -160,7 +211,13 @@
     padding-top: 50px;
     padding-right: 50px;
   }
-
+  .image-txt-container3 {
+    display: flex;
+    align-items: left;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
   .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -171,7 +228,57 @@
 .copyright {
     background-color: #fff;
 }
-
 .icon-container {
   position: relative;
 }
+
+/* image gallery CSS */
+div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end image gallery CSS */
