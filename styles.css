@@ -338,6 +338,7 @@ div.gallery-research img {
   margin-top: 5%;
 }
 .column-image {
+  float: left;
   max-width: 50vw; 
   display: block; 
   margin-right: auto; 
